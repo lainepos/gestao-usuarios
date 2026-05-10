@@ -1,0 +1,24 @@
+{
+  "name": "gestao-usuarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lainepos/gestao-usuarios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lainepos/gestao-usuarios/issues"
+  },
+  "homepage": "https://github.com/lainepos/gestao-usuarios#readme",
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  }
+}
