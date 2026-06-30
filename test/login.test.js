@@ -38,7 +38,7 @@ describe('Validar o Login de Usuários', function() {
         assert.equal(resultado, 'Credenciais incorretas.');
     });
 
-    it('Validar que uma mensagem é retornada quando a senha está incorreta para o usuário encontrado', function() {
+    it('Validar que uma mensagem retorna quando a senha está incorreta para o usuário encontrado', function() {
         // Arrange
         const email = 'joao@email.com';
         const senha = 'senhaErrada';
