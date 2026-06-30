@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.002" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-06-30T11:44:53" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Validar o Login de Usuários" timestamp="2026-06-30T11:44:53" tests="4" file="C:\Users\laine\gestao-usuarios\test\login.test.js" time="0.001" failures="0">
+    <testcase name="Validar o Login de Usuários Validar que o login é realizado com sucesso com email e senha corretos" time="0.000" classname="Validar que o login é realizado com sucesso com email e senha corretos">
+    </testcase>
+    <testcase name="Validar o Login de Usuários Validar que uma mensagem é retornada quando as credenciais do usuário estão expiradas" time="0.000" classname="Validar que uma mensagem é retornada quando as credenciais do usuário estão expiradas">
+    </testcase>
+    <testcase name="Validar o Login de Usuários Validar que uma mensagem é retornada quando o usuário não é encontrado" time="0.000" classname="Validar que uma mensagem é retornada quando o usuário não é encontrado">
+    </testcase>
+    <testcase name="Validar o Login de Usuários Validar que uma mensagem retorna quando a senha está incorreta para o usuário encontrado" time="0.000" classname="Validar que uma mensagem retorna quando a senha está incorreta para o usuário encontrado">
+    </testcase>
+  </testsuite>
+</testsuites>
