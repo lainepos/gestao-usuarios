@@ -1,0 +1,160 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-06-30T11:49:01.526Z",
+    "end": "2026-06-30T11:49:01.530Z",
+    "duration": 4,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "27dd7d1f-7ae2-4f4e-a6b7-f14dd7c48009",
+      "title": "",
+      "fullFile": "C:\\Users\\laine\\gestao-usuarios\\test\\login.test.js",
+      "file": "\\test\\login.test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8125cbe1-55e4-42f2-bc82-c315801feb62",
+          "title": "Validar o Login de Usuários",
+          "fullFile": "C:\\Users\\laine\\gestao-usuarios\\test\\login.test.js",
+          "file": "\\test\\login.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validar que o login é realizado com sucesso com email e senha corretos",
+              "fullTitle": "Validar o Login de Usuários Validar que o login é realizado com sucesso com email e senha corretos",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Arrange\nconst email = 'joao@email.com';\nconst senha = 'joao123';\n// Act\nconst resultado = fazerLogin(email, senha);\n// Assert\nassert.equal(resultado, 'Login realizado com sucesso');",
+              "err": {},
+              "uuid": "e45ec37d-6ddf-45ff-8f94-8a4a8ce50b36",
+              "parentUUID": "8125cbe1-55e4-42f2-bc82-c315801feb62",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar que uma mensagem é retornada quando as credenciais do usuário estão expiradas",
+              "fullTitle": "Validar o Login de Usuários Validar que uma mensagem é retornada quando as credenciais do usuário estão expiradas",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Arrange\nconst email = 'carlos@email.com';\nconst senha = 'carlos789';\n// Act\nconst resultado = fazerLogin(email, senha);\n// Assert\nassert.equal(resultado, 'Suas credenciais expiraram. Renove suas credenciais.');",
+              "err": {},
+              "uuid": "7287d76f-9aa8-4f37-a0cb-df70f76c1b6a",
+              "parentUUID": "8125cbe1-55e4-42f2-bc82-c315801feb62",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar que uma mensagem é retornada quando o usuário não é encontrado",
+              "fullTitle": "Validar o Login de Usuários Validar que uma mensagem é retornada quando o usuário não é encontrado",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Arrange\nconst email = 'naoexiste@email.com';\nconst senha = 'qualquerSenha';\n// Act\nconst resultado = fazerLogin(email, senha);\n// Assert\nassert.equal(resultado, 'Credenciais incorretas.');",
+              "err": {},
+              "uuid": "881fcb0f-043c-4c80-95c9-df5f454af09b",
+              "parentUUID": "8125cbe1-55e4-42f2-bc82-c315801feb62",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar que uma mensagem retorna quando a senha está incorreta para o usuário encontrado",
+              "fullTitle": "Validar o Login de Usuários Validar que uma mensagem retorna quando a senha está incorreta para o usuário encontrado",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Arrange\nconst email = 'joao@email.com';\nconst senha = 'senhaErrada';\n// Act\nconst resultado = fazerLogin(email, senha);\n// Assert\nassert.equal(resultado, 'Credenciais incorretas.');",
+              "err": {},
+              "uuid": "b794adaa-b1a5-4c7f-a8dd-33c2e0290f84",
+              "parentUUID": "8125cbe1-55e4-42f2-bc82-c315801feb62",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e45ec37d-6ddf-45ff-8f94-8a4a8ce50b36",
+            "7287d76f-9aa8-4f37-a0cb-df70f76c1b6a",
+            "881fcb0f-043c-4c80-95c9-df5f454af09b",
+            "b794adaa-b1a5-4c7f-a8dd-33c2e0290f84"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.7.5"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "test-results",
+        "reportFilename": "report"
+      },
+      "version": "6.3.2"
+    }
+  }
+}
